@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+  background-color: aliceblue; }
+
+.morph {
+  fill: #C1272D; }
+
+#cta, #cta2 {
+  position: absolute;
+  margin: 15em auto 0 auto;
+  left: 0;
+  right: 0;
+  width: 30%;
+  background: none;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  padding: 15px;
+  color: aliceblue;
+  font-size: 1.5em;
+  cursor: pointer;
+  outline: 0; }
+
+p {
+  font-size: 1.2em; }
+
+#cta2 {
+  width: auto;
+  margin: 30px auto;
+  background: #C1272D; }
+
+#text {
+  position: absolute;
+  color: #C1272D;
+  right: 25%;
+  top: 0;
+  opacity: 0;
+  width: 30%;
+  transform: translateY(-800px); }
